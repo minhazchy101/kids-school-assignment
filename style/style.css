@@ -1,0 +1,107 @@
+
+/* common style */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+  }
+
+.max-width{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.font-bold{
+    font-weight: bold;
+
+}
+
+.font-20{
+    font-size: 1.25rem;
+}
+
+.font-32{
+    font-size: 2rem;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.btn{
+    padding: 0.625rem 3.75rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: azure;
+    border: none;
+    border-radius: 0.75rem;
+}
+
+/* nav style */
+
+ ul{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+
+
+/* banner style */
+
+
+.banner-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    nav{
+        border-bottom: 2px solid orange;
+    }
+  
+    .menu-icon{
+        display: block;
+        text-align: end;
+    }
+
+    .nav-second,
+     .nav-third,
+     .nav-title{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        
+        text-align: center;
+    }
+}
