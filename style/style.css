@@ -46,13 +46,20 @@
     border-radius: 0.75rem;
 }
 
+.title{
+    font-weight: bold;
+    font-size: 2.875rem ;
+    text-align: center;
+    /* margin-top: 2.75rem; */
+}
+
 /* nav style */
 
  ul{
     list-style: none;
 }
 
-ul a{
+a{
     text-decoration: none;
 }
 
@@ -70,6 +77,53 @@ ul a{
     display: none;
 }
 
+/* standard style */
+
+#standard{
+    background: url("../assets/bg.png");
+    padding: 2.75rem ;
+}
+
+.card-container{
+    margin: 5rem auto;
+}
+
+.card{
+    text-align: center;
+    padding: 3.125rem 2.5rem;
+    border-radius: 1.125rem ;
+    border: none;
+    box-shadow: 0.25rem 0.25rem 0.3125rem 0.25rem rgba(70, 106, 118, 0.326) ;
+   
+}
+
+.card-1{
+    background: linear-gradient(180deg ,rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+}
+.card-2{
+    background: linear-gradient(180deg ,rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+}
+.card-3{
+    background: linear-gradient(180deg ,rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0));
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(32, 32, 32, 1);
+}
+
+.st-text{
+    font-size: 0.9375rem;
+    font-weight: 400px;
+    color: rgba(128, 128, 128, 1);
+}
+
+.icon{
+    max-width: 6.771vw;
+     display: flex;
+    margin: 0 auto;
+}
 
 @media screen and (max-width: 576px) {
     
@@ -93,6 +147,10 @@ ul a{
     .banner-text{
         
         text-align: center;
+    }
+
+    .card-container{
+        flex-direction: column;
     }
 
 }
