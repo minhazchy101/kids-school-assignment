@@ -7,6 +7,11 @@
     font-family: "Quicksand", serif;
   }
 
+
+  .btn:hover{
+    background-color: aqua;
+  }
+
 .max-width{
     max-width: 1160px;
     margin: 0 auto;
@@ -52,7 +57,6 @@
     font-weight: bold;
     font-size: 2.875rem ;
     text-align: center;
-    /* margin-top: 2.75rem; */
 }
 
 
@@ -72,6 +76,12 @@ a{
     text-decoration: none;
 }
 
+.marquee{
+    background-color: aquamarine;
+    color: navy;
+    padding: 2px;
+    font-weight: bold;
+}
 
 
 /* banner style */
@@ -277,6 +287,12 @@ a{
     align-items: first baseline;
 }
 
+a:hover{
+    background-color: aqua;
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+  }
 
 @media screen and (max-width: 576px) {
     
