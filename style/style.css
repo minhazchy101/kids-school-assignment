@@ -37,6 +37,8 @@
     width: 100%;
 }
 
+
+
 .btn{
     padding: 0.625rem 3.75rem;
     font-weight: 600;
@@ -52,6 +54,13 @@
     text-align: center;
     /* margin-top: 2.75rem; */
 }
+
+
+.radius{
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem ;
+}
+
 
 /* nav style */
 
@@ -123,6 +132,88 @@ a{
     max-width: 6.771vw;
      display: flex;
     margin: 0 auto;
+    
+}
+
+/* stories */
+
+#stories{
+    padding: 2.75rem ;
+    background: linear-gradient(rgba(255, 255, 255, 0.144), rgba(255, 255, 255, 0.251)   ,rgba(254, 119, 1, 0.248)) ,url("../assets/bg.png");
+    
+}
+
+.full-container{
+    align-items: normal;
+}
+
+
+.box-text{
+    padding: 2rem;
+}
+
+
+
+.stories-btn{
+    margin-top: -1.5625rem;
+    padding-left: 2rem;
+}
+
+.img-card-btn{
+    padding: 0.625rem 1.25rem;
+    background-color: rgba(149, 178, 38, 1);
+}
+
+.full-container{
+    display: flex;
+    /* max-width: 1160px; */
+}
+
+.width-600{
+    
+
+    max-width: 600px;
+    height: 630px;
+}
+
+.img-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+}
+
+.image-box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.125rem ;
+    border: none;
+   
+}
+
+.width-290px{
+    max-width: 290px;
+}
+.width-540px{
+    max-width: 540px;
+}
+
+.font-15{
+    font-size: 0.9375rem;
+}
+
+.pic-btn{
+    border-radius: 2.9375rem ;
+    color: aliceblue;
+    border: none;
+}
+
+.single-pic-btn{
+    padding: 14px 18px ;
+    background-color: rgba(60, 216, 232, 1);
+
+}
+
+.img-text{
+    padding: 1rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -138,7 +229,8 @@ a{
 
     .nav-second,
      .nav-third,
-     .nav-title{
+     .nav-title,
+     .single-img-container{
         display: none;
     }
     .banner{
@@ -153,13 +245,19 @@ a{
         flex-direction: column;
     }
 
-}
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .banner{
-        flex-direction: column-reverse;
+    .pic-btn{
+        padding: 2px 4px;
+        font-size: 7px;
     }
-    .banner-text{
-        
-        text-align: center;
+
+    .stories-btn{
+        margin-top: -1rem;
+        padding-left: 1rem;
     }
+
+    .our-h{
+        font-size: 9px;
+    }
+
+
 }
